@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "review": "Anda dapat membantu dengan berdonasi untuk biaya penanaman, perwatan, bibit dan biaya oprasional lainnya",
+        "button" : "Menjadi Donatur"
+    },
+    {
+        "id": 2,
+        "review": "Kamu dapat membantu bertumbuh dengan menjadi relawan kami. Kamu dapat langsung menanam pohon, membantu berkebun, melakukan sosialisasi dan program-program menarik lainnya",
+        "button" : "Menjadi Donatur"
+    },
+    {
+        "id": 3,
+        "review": "Kamu akan belajar tentang cara  menanam pohon, merawat pohon serta hal lain dengan bergabung sebagai petani",
+        "button" : "Menjadi Donatur"
+    }
+]
