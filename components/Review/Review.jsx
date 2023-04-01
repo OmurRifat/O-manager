@@ -121,7 +121,7 @@ const Review = () => {
       </div>
      
      <div className=" flex justify-center  items-center bg-white border mx-auto w-28 h-16">
-        <FaLongArrowAltLeft style={styleObject.primary}></FaLongArrowAltLeft>
+        <FaLongArrowAltLeft style={styleObject.primary} className="cursor-pointer"></FaLongArrowAltLeft>
         <button style={styleObject.secondary} className="w-12 h-10 ml-2 flex justify-center items-center bg-white"><FaLongArrowAltRight></FaLongArrowAltRight> </button>
       </div>
      
