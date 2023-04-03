@@ -33,17 +33,17 @@ const About = () => {
   
   {/* <------------------------------> */}
   
-  <div class="w-full text-center bg-white  sm:p-8 ">
+  <div class=" text-center bg-white m-5 sm:p-8 ">
   
-      <div class="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-            <div class="w-full sm:w-auto bg-white  focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
+      <div class="justify-between p-5 space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+            <div class=" sm:w-auto bg-white  focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
               <div class="text-left">
               <img style={styleObject.size} class="" src="https://i.ibb.co/hcrYTBs/Untitled-3.png" alt="" />
                   
               </div>
             </div>
   
-          <div class="w-full sm:w-auto bg-white  focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center p-5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
+          <div class=" sm:w-auto bg-white  focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center p-5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
               <div class="text-left">
               <p style={styleObject.textcolor} className="text-gray-900 font-semibold pb-2">Tentang  Kami</p>
                       <h1  class="text-4xl font-semibold text-gray-600 dark:text-white">BERTUMBUH - Save The<br></br> World </h1>
@@ -61,11 +61,11 @@ const About = () => {
   
   
   {/* <------------------------------> */}
-  <div class="w-full text-center bg-white  sm:p-8 ">
+  <div className="text-center bg-white m-5 sm:p-8 ">
   
-      <div class="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-          <div class="w-full sm:w-auto bg-white  focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center p-5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
-              <div class="text-left">
+      <div className="m-5 justify-between space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+          <div class="sm:w-auto bg-white  focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center p-5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
+              <div className="text-left">
               <p style={styleObject.textcolor} className="text-gray-900 font-semibold ">Kami Butuh Kamu</p>
                       <h1  class="text-4xl font-semibold text-gray-600 dark:text-white mr-5">Kenapa BERTUMBUH <br></br> Butuh Kamu ? </h1>
                       <br></br>
@@ -74,9 +74,9 @@ const About = () => {
                       <button style={styleObject.button} type="button" class="text-white bg-gray-600 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 ">Gabung Bertumbuh</button>
               </div>
           </div>
-          <div class="w-full sm:w-auto bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
-              <div class="text-left">
-              <img style={styleObject.size} class="ps-5" src="https://i.ibb.co/DpydcPf/Untitledujnjikuu-copy.jpg" alt="" />
+          <div className="sm:w-auto bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
+              <div className="text-left">
+              <img style={styleObject.size} class="" src="https://i.ibb.co/DpydcPf/Untitledujnjikuu-copy.jpg" alt="" />
                   
               </div>
           </div>
