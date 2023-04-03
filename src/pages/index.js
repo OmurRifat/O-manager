@@ -6,6 +6,8 @@ import Blog from "../../components/Blog/Blog";
 import About from "../../components/About/About";
 import Footer from "../../components/Footer";
 import Navber from "../../components/Navber/Navber";
+import Newsletter from "../../components/Newsletter/Newsletter";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +25,7 @@ export default function Home() {
       <About />
       <Review />
       <Blog />
+      <Newsletter/>
       <Footer />
     </div>
   );
