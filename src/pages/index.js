@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Review from '../../components/Review/Review'
 import Blog from '../../components/Blog/Blog'
+import Newsletter from '../../components/Newsletter/Newsletter'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,8 +18,9 @@ export default function Home() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <Review />
+            <Review/>
             <Blog/>
+            <Newsletter/>
             <footer class="bg-white dark:bg-gray-900">
                 <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                     <div class="md:flex md:justify-between">

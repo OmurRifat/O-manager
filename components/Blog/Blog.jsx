@@ -25,11 +25,11 @@ const Blog = () => {
           Read and follow the events and programs that we do for a better earth
         </p>
       </div>
-     <div className="grid md:grid-cols-2 px-24">
+     <div className="grid md:grid-cols-2 gap-10 px-10 md:px-24">
       <div>
       <Image className="pb-6" src='/forest.png' width={500} height={300} alt='picture of forest'></Image>
       <h3 style={styles.secondary} className="font-medium mb-5 text-2xl">Save Forests for a Healthy and Beautiful Earth</h3>
-      <p style={styles.paraColor} className="text-justify mb-6 md:mb-0 md:w-4/5  pb-4 text-xl">Forests have many benefits for all of us. But looking at the current data, the worlds forests, especially in Indonesia, are starting to be threatened. To not cause more severe damage we must prevent it in a way. Like ....</p>
+      <p style={styles.paraColor} className="text-justify mb-6 md:mb-0 w-full md:w-4/5  pb-4 text-xl">Forests have many benefits for all of us. But looking at the current data, the worlds forests, especially in Indonesia, are starting to be threatened. To not cause more severe damage we must prevent it in a way.</p>
       </div>
       <div className="blogs">
       {/* blog--->1 */}
