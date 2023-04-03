@@ -7,11 +7,6 @@ const Navber = () => {
         <nav class="border-white px-2 mb-10">
           <div class="container mx-auto flex flex-wrap items-center justify-between">
             <a href="#" class="flex">
-              <img
-                src="https://i.ibb.co/tqPW58H/haven-hub-removebg-preview.png"
-                alt="haven-hub-removebg-preview"
-                border="0"
-              />
               <span class="self-center text-lg font-semibold whitespace-nowrap">
                 Unity Builder
               </span>
@@ -40,10 +35,7 @@ const Navber = () => {
                 />
               </div>
               <button className="text-white ml-5 rounded-lg py-2 px-5 bg-yellow-500 ">
-                Donate The pages/api directory is mapped to /api/*. Files in
-                this directory are treated as API routes instead of React pages.
-                This project uses next/font to automatically optimize and load
-                Inter, a custom Google Font
+                Donate
               </button>
 
               <button
