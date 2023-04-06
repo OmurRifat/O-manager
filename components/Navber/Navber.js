@@ -1,8 +1,6 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
-import { TiThMenuOutline } from "react-icons/ti";
-import { RxCross1 } from "react-icons/rx";
 import { BiDonateHeart } from "react-icons/bi";
 const Navber = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,10 +18,7 @@ const Navber = () => {
 
   return (
     <div>
-      <nav
-        style={styleObject.button}
-        className=" shadow-sm bg-white fixed w-full z-10"
-      >
+      <nav style={styleObject.button} className=" shadow-sm   w-full z-10">
         <div className="w-full">
           <div className="flex items-center h-20 w-full">
             <div className="flex items-center mx-6 md:mx-20  justify-between w-full">
