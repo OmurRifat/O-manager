@@ -4,6 +4,8 @@ import Review from "../../components/Review/Review";
 import Blog from "../../components/Blog/Blog";
 import About from "../../components/About/About";
 import Footer from "../../components/Footer";
+import Newsletter from "../../components/Newsletter/Newsletter";
+import HeroSection from "../../components/HeroSection/HeroSection";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,9 +19,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <HeroSection />
       <About />
       <Review />
       <Blog />
+      <Newsletter />
       <Footer />
     </div>
   );
