@@ -16,7 +16,7 @@ const Blog = () => {
     <>
       <div className="pt-24 pb-10 pl-10 pr-6 md:pr-0 md:pl-24 md:text-left text-center">
         <h3 style={styles.primary} className="text-2xl mb-4 font-medium">
-          Read Our Posts
+        Explore the Events
         </h3>
         <h2 style={styles.secondary} className="font-medium mb-5 text-5xl">
           Latest News, Articles & Events
@@ -75,7 +75,7 @@ const Blog = () => {
       </div>
       </div>
       <div className="w-60 mx-auto text-center mt-20 pb-20">
-        <button className="px-8 py-2 font-medium" style={{backgroundColor:'#2A9D8F'}}>View More</button>
+        <button className="px-8 py-2 font-medium rounded-lg" style={{backgroundColor:'#2A9D8F'}}>Explore More News</button>
       </div>
     </>
   );
