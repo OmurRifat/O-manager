@@ -91,7 +91,7 @@ const Review = ( {next,previous}) => {
 
             <p className="mb-3 font-normal text-gray-500 dark:text-gray-400 text-justify max-w-[260px]">
               You can help by donating for planting, maintenance, seeds and
-              other operational costs
+              other operational 
             </p>
             <div className="flex items-center">
               <Link
