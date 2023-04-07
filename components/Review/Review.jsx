@@ -57,7 +57,6 @@ const Review = () => {
         <div style={styleObject.secondary} className="w-16 mb-5 h-16 flex justify-center items-center ">
           <Image src="/donate.png" width={20} height={20} alt="picture of the client"></Image>
         </div>
-        
         <p className="mb-3 font-normal text-gray-500 dark:text-gray-400 text-justify max-w-[260px]">
         Anda dapat membantu dengan berdonasi untuk biaya penanaman, perwatan, bibit dan biaya oprasional lainnya
         </p>

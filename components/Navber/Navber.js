@@ -1,112 +1,177 @@
-import React from "react";
-
+import Link from "next/link";
+import React, { useState } from "react";
+import { Transition } from "@headlessui/react";
+import { BiDonateHeart } from "react-icons/bi";
 const Navber = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const styleObject = {
+    button: {
+      background: "#2A9D8F",
+    },
+    pColor: {
+      color: "#656565",
+    },
+    primary: {
+      color: "#2A9D8F",
+    },
+  };
+
   return (
     <div>
-      <div class="mt-5 mx-auto">
-        <nav class="border-white px-2 mb-10">
-          <div class="container mx-auto flex flex-wrap items-center justify-between">
-            <a href="#" class="flex">
-              <span class="self-center text-lg font-semibold whitespace-nowrap">
-                Unity Builder
-              </span>
-            </a>
-            <div class="flex md:order-2">
-              <div class="relative mr-3 md:mr-0 hidden md:block">
-                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <svg
-                    class="w-5 h-5 text-gray-500"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                </div>
-                <input
-                  type="text"
-                  id="email-adress-icon"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2"
-                  placeholder="Search..."
-                />
+      <nav style={styleObject.button} className=" shadow-sm   w-full z-10">
+        <div className="w-full">
+          <div className="flex items-center h-20 w-full">
+            <div className="flex items-center mx-6 md:mx-20  justify-between w-full">
+              <div className="flex justify-center items-center flex-shrink-0 ">
+                <Link href="/">
+                  <h1 className=" flex items-center button font-bold text-xl cursor-pointer">
+                    <img
+                      className="md:w-24 w-14"
+                      src="https://i.ibb.co/WnH0G6q/Family-logo-template-removebg-preview.png"
+                      alt="Family-logo-template-removebg-preview"
+                      border="0"
+                    />
+                    <p>Brighter Tomorrow</p>
+                  </h1>
+                </Link>
               </div>
-              <button className="text-white ml-5 rounded-lg py-2 px-5 bg-yellow-500 ">
-                Donate
-              </button>
-
-              <button
-                data-collapse-toggle="mobile-menu-3"
-                type="button"
-                class="md:hidden text-gray-400 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300 rounded-lg inline-flex items-center justify-center"
-                aria-controls="mobile-menu-3"
-                aria-expanded="false"
-              >
-                <span class="sr-only">Open main menu</span>
-                <svg
-                  class="w-6 h-6"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-                <svg
-                  class="hidden w-6 h-6"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </button>
-            </div>
-            <div
-              class="hidden md:flex justify-between items-center w-full md:w-auto md:order-1"
-              id="mobile-menu-3"
-            >
-              <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
-                <li>
-                  <a
-                    href="#"
-                    class="bg-blue-700 md:bg-transparent text-white block pl-3 pr-4 py-2 md:text-blue-700 md:p-0 rounded"
-                    aria-current="page"
+              <div className="hidden md:block">
+                <div className="ml-10 flex items-baseline space-x-4">
+                  <Link
+                    href="/"
+                    className="cursor-pointer text-white  font-semibold px-3 py-2 text-md "
                   >
                     Home
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0"
+                  </Link>
+                  <Link
+                    href="/Organization"
+                    className="cursor-pointer text-white  px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    About
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0"
+                    Organization
+                  </Link>
+                  <Link
+                    href="/Vision"
+                    className="cursor-pointer  text-white   px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Services
-                  </a>
-                </li>
-              </ul>
+                    Vision
+                  </Link>
+
+                  <Link
+                    href="/Contract"
+                    className="cursor-pointer text-white  px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Contract
+                  </Link>
+                  <Link
+                    href="/"
+                    className="cursor-pointer flex items-center text-white px-3 py-2 rounded-md text-sm bg-amber-400 font-medium "
+                  >
+                    <BiDonateHeart /> Donate
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="mr-10 flex md:hidden ">
+              <button
+                onClick={() => setIsOpen(!isOpen)}
+                type="button"
+                style={styleObject.button}
+                className="bg-blue-600 inline-flex items-center justify-center p-2 rounded-md text-white  hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-800 focus:ring-white"
+                aria-controls="mobile-menu"
+                aria-expanded="false"
+              >
+                <span className="sr-only">Open main menu</span>
+                {!isOpen ? (
+                  <svg
+                    className="block h-6 w-6"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    />
+                  </svg>
+                ) : (
+                  <svg
+                    className="block h-6 w-6"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                )}
+              </button>
             </div>
           </div>
-        </nav>
-      </div>
+        </div>
+
+        <Transition
+          show={isOpen}
+          enter="transition ease-out duration-100 transform"
+          enterFrom="opacity-0 scale-95"
+          enterTo="opacity-100 scale-100"
+          leave="transition ease-in duration-75 transform"
+          leaveFrom="opacity-100 scale-100"
+          leaveTo="opacity-0 scale-95"
+        >
+          {(ref) => (
+            <div className="md:hidden bg-sky-600" id="mobile-menu">
+              <div
+                ref={ref}
+                style={styleObject.button}
+                className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3"
+              >
+                <Link
+                  href="/"
+                  className="cursor-pointer text-white  block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Home
+                </Link>
+                <Link
+                  href="/Organization"
+                  className="cursor-pointer  text-white  block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Organization
+                </Link>
+
+                <Link
+                  href="/Vision"
+                  className="cursor-pointer  text-white  block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Vision
+                </Link>
+                <Link
+                  href="/Contract"
+                  className="cursor-pointer  text-white   block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Contract
+                </Link>
+
+                <Link
+                  href="/"
+                  className="cursor-pointer flex items-center text-white w-24 px-3 py-2 rounded-md text-sm bg-amber-400 font-medium "
+                >
+                  <BiDonateHeart /> Donate
+                </Link>
+              </div>
+            </div>
+          )}
+        </Transition>
+      </nav>
     </div>
   );
 };
