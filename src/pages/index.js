@@ -3,9 +3,9 @@ import { Inter } from "next/font/google";
 import Review from "../../components/Review/Review";
 import Blog from "../../components/Blog/Blog";
 import About from "../../components/About/About";
-import Footer from "../../components/Footer";
 import Newsletter from "../../components/Newsletter/Newsletter";
 import HeroSection from "../../components/HeroSection/HeroSection";
+import Footer from "../../components/Footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,7 +24,7 @@ export default function Home() {
       <Review />
       <Blog />
       <Newsletter />
-      <Footer />
+    <Footer/>
     </div>
   );
 }
