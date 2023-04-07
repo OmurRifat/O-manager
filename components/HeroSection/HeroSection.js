@@ -28,7 +28,7 @@ const HeroSection = () => {
             lives of those we serve. Be part of the solution today.
           </p>
           <div>
-            <Link href="">
+            <Link href="/register">
             <button
               style={styleObject.button}
               className="flex mt-2 text-white rounded-lg p-1 items-center justify-center"
