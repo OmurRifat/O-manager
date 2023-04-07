@@ -1,31 +1,25 @@
-import React from 'react';
-// import data from '../public/data.json';
+// import * as React from "react";
 
-const Reviews = () => {
+// const Review = () => {
+//   return (
+//     <>
+//       const CustomLeftArrow = ({ onClick }) => (
+//   <i onClick={() => onClick()} className="custom-left-arrow" />
+// );
+// const CustomRightArrow = ({ onClick }) => {
+//   return <i className="custom-right-arrow" onClick={() => onClick()} />;
+// };
 
 
-    return (
-        <div>
-        
-            {
-                {/* jsonData && jsonData.map(item => <Review key={item.id} item = {item}></Review>) */}
-                
-                
-            }
-        </div>
-    );
-};
+//     </>
+//   )
+// }
 
-export default Reviews;
+// export {
+//   CustomLeftArrow,
+//   CustomRightArrow,
+//   CustomButtonGroup,
+//   CustomButtonGroupAsArrows,
+// };
 
-export async function getStaticProps() {
-    const res = await fetch('/data.json');
-    const data = await res.json();
-    console.log(data);
-  
-    return {
-      props: {
-        data
-      }
-    };
-  }
+
