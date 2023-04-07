@@ -69,6 +69,10 @@ const About = () => {
               <p style={styleObject.textcolor} className="text-gray-900 font-semibold ">Managing Man-Power</p>
                       <h1  className="text-4xl font-semibold text-gray-600 dark:text-white mr-5">We Will Manage  <br></br> Your Man-Power Carefully! </h1>
                       <br></br>
+                      <div>
+                        
+                      </div>
+                      <br></br>
                       <p className="text-base font-normal text-gray-500 dark:text-gray-400">BERTUMBUH - Adalah organisasi non-profit yang mempunyai   <br></br> Melindungi, menjaga, merawat, dan melestarikan pohon-  <br></br> bumi yang kita pijak sekarang. BERTUMBUH - Adalah  <br></br> non-profit yang mempunyai tujuan Melindungi, menjaga, <br></br> dan melestarikan pohon-pohon yang </p>
                       <br></br>
                       <button style={styleObject.button} type="button" className="text-white bg-gray-600 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 ">Manage Your Power</button>
