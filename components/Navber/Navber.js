@@ -62,12 +62,7 @@ const Navber = () => {
                   >
                     <BiDonateHeart /> Donate
                   </Link>
-                  <Link
-                    href="/register"
-                    className="cursor-pointer flex items-center text-white px-3 py-2 rounded-md text-sm bg-[blue] font-medium "
-                  >
-                   Signup
-                  </Link>
+                  
                 </div>
               </div>
             </div>
