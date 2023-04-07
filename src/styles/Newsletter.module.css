@@ -1,0 +1,14 @@
+.inputClass{
+    border:none;
+    color: black;
+    outline: none;
+    margin: 28px 0;
+    font-weight: 500;
+    font-size:18px;
+    
+}
+.inputClass:focus{
+    outline: none;
+    border: none;
+    --tw-ring-color: transparent;
+}
