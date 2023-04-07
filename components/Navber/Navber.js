@@ -19,15 +19,15 @@ const Navber = () => {
   };
 
   return (
-    <div>
+    <div style={styleObject.pColor}>
       {/* firstblock */}
       <nav
         style={styleObject.pColor}
-        className="md:block z-20 top-0 backdrop-filter backdrop-blur hidden shadow-sm w-full "
+        className="md:block z-20 top-0 backdrop-filter backdrop-blur hidden shadow-sm w-full md:fixed"
       >
         <div className="w-full">
           <div className="flex items-center h-20 w-full">
-            <div className="flex items-center mx-6 md:mx-20  justify-between w-full">
+            <div className="flex items-center mx-6 md:mx-10  justify-between w-full">
               <div className="flex justify-center items-center flex-shrink-0 ">
                 <Link href="/">
                   <h1 className="flex items-center button font-bold text-xl cursor-pointer">
@@ -45,7 +45,7 @@ const Navber = () => {
                 <div class="relative flex justify-end items-center mr-6 my-2">
                   <input
                     type="search"
-                    class=" md:w-72 rounded-md"
+                    class=" md:w-72 text-black rounded-md"
                     placeholder="Organization Search"
                   />
                   <div class="absolute pin-r pin-t mt-3 mr-4 ">
@@ -180,9 +180,8 @@ const Navber = () => {
                 </Link>
 
                 <Link
-                  style={styleObject.button}
                   href="/"
-                  className="cursor-pointer flex items-center text-white w-24 px-3 py-2 rounded-md text-sm  font-medium "
+                  className="cursor-pointer flex items-center text-white w-24 px-3 py-2 rounded-md text-sm bg-amber-400 font-medium "
                 >
                   <BiDonateHeart /> Donate
                 </Link>
