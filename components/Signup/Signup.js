@@ -4,7 +4,7 @@ const Signup = () => {
   return (
     <div className="">
       <div className="flex">
-        <div className="">
+        <div className="border">
           <h1 className="text-5xl text-[green] m-5 ">Sign Up</h1>
           <div className="flex  items-center m-5 mt-10">
             <div className="bg-[black] h-1 w-24 me-5"></div>
