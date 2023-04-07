@@ -7,13 +7,9 @@ const Footer = () => {
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
             <a  href="https://flowbite.com/" class="flex items-center">
-              <img
-                src="https://i.ibb.co/WnH0G6q/Family-logo-template-removebg-preview.png"
-                class="h-20 mr-3"
-                alt="FlowBite Logo"
-              />
+            <img src="https://i.ibb.co/Bw1TVQS/project-logo.png" alt="project-logo" width="100px" border="0"/>
               <span class="self-center text-2xl font-semibold whitespace-nowrap text-white dark:text-white">
-                Brighter Tomorrow
+                Organizational Manager
               </span>
             </a>
           </div>
