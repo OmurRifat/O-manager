@@ -1,5 +1,6 @@
 import React from "react";
 import { RxVideo } from "react-icons/rx";
+import Link from "next/link";
 
 const HeroSection = () => {
   const styleObject = {
@@ -27,12 +28,13 @@ const HeroSection = () => {
             lives of those we serve. Be part of the solution today.
           </p>
           <div>
+            <Link href="">
             <button
               style={styleObject.button}
               className="flex mt-2 text-white rounded-lg p-1 items-center justify-center"
             >
               Sign Up
-            </button>
+            </button></Link>
             <button
               style={styleObject.button}
               className="flex mt-2 text-white rounded-lg p-1 items-center justify-center"
