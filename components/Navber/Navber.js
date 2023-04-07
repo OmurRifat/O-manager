@@ -23,7 +23,7 @@ const Navber = () => {
       {/* firstblock */}
       <nav
         style={styleObject.pColor}
-        className="md:block z-20 top-0 backdrop-filter backdrop-blur hidden shadow-sm w-full fixed"
+        className="md:block z-20 top-0 backdrop-filter backdrop-blur hidden shadow-sm w-full "
       >
         <div className="w-full">
           <div className="flex items-center h-20 w-full">
@@ -62,7 +62,6 @@ const Navber = () => {
                   >
                     <BiDonateHeart /> Donate
                   </Link>
-                  
                 </div>
               </div>
             </div>
