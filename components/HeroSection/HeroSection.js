@@ -29,12 +29,13 @@ const HeroSection = () => {
           </p>
           <div>
             <Link href="">
-            <button
-              style={styleObject.button}
-              className="flex mt-2 text-white rounded-lg p-1 items-center justify-center"
-            >
-              Sign Up
-            </button></Link>
+              <button
+                style={styleObject.button}
+                className="flex mt-2 text-white rounded-lg p-1 items-center justify-center"
+              >
+                Sign Up
+              </button>
+            </Link>
             <button
               style={styleObject.button}
               className="flex mt-2 text-white rounded-lg p-1 items-center justify-center"
