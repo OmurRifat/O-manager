@@ -53,16 +53,16 @@ const Review = ( {next,previous}) => {
     <>
       <div className="text-center pt-20 pb-16">
         <h3 style={styleObject.h3} className="2xl font-medium">
-          Become a Growing Part
+        Talk with our happy client
         </h3>
         <h2 style={styleObject.h2} className="text-6xl max-w-2xl mx-auto">
-          Make Simple Things More Meaningful
+        Lets Learn What Our Client Says
         </h2>
         <p
           style={styleObject.pColor}
           className="font-normal text-xl max-w-xl mx-auto"
         >
-          Make every activity more meaningful and useful for us, him and all
+          Our Client is much more happy and confident about work,their reviews will give you a clear picture.
         </p>
       </div>
 
@@ -73,7 +73,7 @@ const Review = ( {next,previous}) => {
          containerClass="carousel-container" autoPlay={true}
        removeArrowOnDeviceType={["tablet", "mobile"]}
       className="mb-10 pb-12  ">
-        {/* <div className=" grid grid-cols-1 md:grid-cols-3 mb-10  pb-12  gap-y-10 md:gap-x-11"> */}
+       
         
           {/* card----->1 */}
           <div className="max-w-sm mx-auto p-6 h-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -99,7 +99,7 @@ const Review = ( {next,previous}) => {
                 style={styleObject.primary}
                 className="h-6 font-normal "
               >
-                Become a Donor
+                Iqbal Foundation
               </Link>
               <FaLongArrowAltRight
                 style={{ color: "#2A9D8F" }}
@@ -132,7 +132,7 @@ const Review = ( {next,previous}) => {
                 style={styleObject.primary}
                 className="h-6 font-normal "
               >
-                Become a Donor
+                Peace Foundation
               </Link>
               <FaLongArrowAltRight
                 style={{ color: "#2A9D8F" }}
@@ -164,7 +164,7 @@ const Review = ( {next,previous}) => {
                 style={styleObject.primary}
                 className="h-6 font-normal "
               >
-                Become a Donor
+                Omor Club
               </Link>
               <FaLongArrowAltRight
                 style={{ color: "#2A9D8F" }}
