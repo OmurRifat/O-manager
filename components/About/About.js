@@ -73,6 +73,18 @@ const About = () => {
               We Will Manage Your <br></br> Man-Power Carefully!{" "}
               </h1>
               <br></br>
+              <div className="mx-auto flex justify-between items-center bg-white sm:flex">
+              <div className="font-medium text-gray-800">
+                    <div className="text-2xl text-gray-700">15,3 M</div>
+                    <div className="text-sm text-gray-500 dark:text-gray-400">Members</div>
+                </div>
+                <div className="font-medium text-gray-700">
+                    <div className="text-2xl">1000+</div>
+                    <div className="text-sm text-gray-500 dark:text-gray-400">Organization</div>
+                </div>
+                <br></br>
+              </div>
+              <br></br>
               <p class="text-base font-normal text-gray-500 dark:text-gray-400">
                 BERTUMBUH - Adalah organisasi non-profit yang mempunyai{" "}
                 <br></br> Melindungi, menjaga, merawat, dan melestarikan pohon-{" "}
